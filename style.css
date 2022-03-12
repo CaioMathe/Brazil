@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    height: 400vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(0,0,1);
+    overflow-x: hidden;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dre{
+    background: linear-gradient(to top, rgb(0,0,1), rgba(0, 0, 1, 0.151));
+    position: absolute;
+    width: 110vw;
+    height: 100vh; 
+}
+#Img-Brasil{
+    width: 100vw;
+    height: 100vh;
+    
+}
+.Vist{
+    color: white;
+    font-size: 80px;
+    margin-top: 200px;
+    margin-left: 70px;
+    margin-bottom: -20px;
+}
+.Brasil{
+    color: rgb(233, 45, 45);
+    font-size: 100px;
+    margin-left: 70px;
+}
+#Mini-Text{
+    margin-left: 70px;
+    margin-top: 55px;
+    color: rgba(255, 255, 255, 0.74);
+}
+@keyframes fadeIn  {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+    }
+.fadeIn {
+    animation: fadeIn 3s ease;
+ }
+ @keyframes fadeIn2  {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+    }
+.fadeIn2 {
+    animation: fadeIn2 4s ease;
+ }
+
+

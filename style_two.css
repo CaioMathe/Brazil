@@ -1,0 +1,152 @@
+.Cities{
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   align-items: center;
+}
+ul{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+}
+.img_div{
+    width: 350px;
+    height:349px;
+}
+li{
+    position: relative;
+    list-style: none;
+}
+.img_city{
+    display: flex;
+}
+.Text_img{
+    color: white;
+    position: absolute;
+    text-shadow: 2px 3px 2px black;
+    left: 3px;
+    bottom: 20px;  
+}
+.degrade{
+    opacity: 0;
+    position: absolute;
+    width: 350px;
+    height:349px;
+    background: linear-gradient(rgba(0, 0, 0, 0.24), #000000f3);
+    cursor: pointer;
+    top: 0;
+}
+.degrade:hover{
+    opacity: 100;
+}
+.Text_out{
+    margin-top: 10px;
+    color: white;
+}
+ol{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    margin-top: 10px;
+}
+.icons_adv{
+    width: 120px;
+    height: 120px;
+    background-color: rgb(233, 45, 45);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+i{
+    color: white;
+    font-size: 50px;
+}
+h5{
+    color: white;
+}
+.About{
+    width: 100vw;
+    height: 100vh;
+    background:rgb(233, 45, 45);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+#Us{
+    position: absolute;
+    top: 180px;
+    color: white;
+}
+#Us_Desc{
+    color: white;
+    text-align:end;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+form{
+    color: white;
+}
+#Contact_Us_Text{
+    margin-bottom: 50px;
+    color: white;
+}
+input[type="submit"]{
+    width: 300px;
+    height: 40px;
+    border-radius: 6px;
+    border: none;
+    background-color:rgb(233, 45, 45);
+    color: white;
+    cursor: pointer;
+}
+input[type="text"]{
+    width: 300px;
+}
+#description{
+    height: 100px;
+}
+@media (max-width: 1010px)
+{
+    ul{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .img_div,.degrade{
+        width: 250px;
+        height:249px;
+    }
+}
+@media (max-width: 775px)
+{
+    .dre{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: end;
+    }
+    .Vist{
+     margin: 0;
+        text-align: start;
+    }
+    .Brasil{
+        margin-left:-10px ;
+    }
+    .img_div,.degrade{
+        width: 200px;
+        height:199px;
+    }
+}
+
